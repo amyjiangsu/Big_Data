@@ -14,4 +14,5 @@ SPARK_HOME = os.environ['SPARK_HOME']
 # Add the PySpark/py4j to the Python Path 
 sys.path.insert(0, os.path.join(SPARK_HOME, "python"))
 
+#import getspark
 #you still need to import pyspark and setup a spark context

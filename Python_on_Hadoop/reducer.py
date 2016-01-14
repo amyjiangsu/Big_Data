@@ -1,4 +1,7 @@
-#itertools prevents too much data from being loaded into memory
+#!/usr/bin/env python
+#Reducer.py
+from intertools import groupby
+from operator import itemgetter #itertools prevents too much data from being loaded into memory
 
 SEP = '/t' #note this is a tab seperated file indicates keys and values
 
